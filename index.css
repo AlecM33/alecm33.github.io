@@ -1,14 +1,21 @@
 
 
+
+/* Generic tag stylings */
+
 body, html {
     background-color: #071842;
-    height: 100%;
     margin: 0;
 }
 
 a {
     text-decoration: none;
     color: #071842;
+}
+
+p {
+    font-family: sitewide-serif, serif;
+    margin: 0;
 }
 
 a:hover {
@@ -22,6 +29,7 @@ li {
     font-size: 16px;
 }
 
+/* FONTS */
 
 @font-face {
     font-family: title-font;
@@ -38,6 +46,88 @@ li {
     src: url("fonts/Moon2.0-Regular.otf") format('opentype');
 }
 
+@font-face {
+    font-family: sitewide-serif;
+    src: url("fonts/Ledger-Regular.ttf") format('truetype');
+}
+
+/* REVIEW PAGES */
+
+#review-opening {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.decorative-dashes {
+    color: orangered;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+#spoiler-warning {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+
+#star-rating-container {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.star {
+    filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.9));
+    padding: 0 10px;
+    width: 65px;
+    height: 65px;
+}
+
+@keyframes star-fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes review-fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#review-container {
+    animation: review-fade 1s;
+}
+
+.star-1 {
+    animation-name: star-fade;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+}
+
+.star-2 {
+    animation-name: star-fade;
+    animation-duration: 1.5s;
+    animation-delay: 0.2s;
+    animation-fill-mode: backwards;
+}
+
+.star-3 {
+    animation-name: star-fade;
+    animation-duration: 1.5s;
+    animation-delay: 0.4s;
+    animation-fill-mode: backwards;
+}
+
+.star-4 {
+    animation-name: star-fade;
+    animation-duration: 1.5s;
+    animation-delay: 0.6s;
+    animation-fill-mode: backwards;
+}
 
 #main-container {
     width: 69%;
@@ -48,24 +138,28 @@ li {
 
 #subtitle {
     font-size: 27px;
-    padding: 2rem;
+    padding-bottom: 2rem;
+}
+
+#page-text {
+    margin: 3rem 5rem;
 }
 
 #king-quote {
     font-size: 20px;
     font-style: italic;
-    padding: 2rem;
+    padding-bottom: 2rem;
 }
 
 #movie-list {
-    margin-top: 1rem;
+    margin: 1.5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .alphabet-section {
-    width: 25%;
+    width: 47%;
     padding: 0.5rem;
     border-left: 1px solid orangered;
 }
@@ -80,6 +174,7 @@ li {
 #site-content {
     height: 100%;
     padding: 1rem 3rem;
+    margin-bottom: 4rem;
     border-top: 3px solid orangered;
     background-color: white;
     -moz-box-shadow:    inset 0 0 20px #000000;
@@ -90,7 +185,7 @@ li {
 /* The hero image */
 #alec-banner-photo {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./media/alec_banner_wide.jpg);
-    height: 20vw;
+    height: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,13 +221,14 @@ li {
     font-family: nav-link-font, sans-serif;
     font-size: 20px;
     border: 1px solid orangered;
-    padding: 3px;
+    padding: 0 10px;
 }
 
 .nav-link:hover {
     border: 1px solid #1c3996;
     transform: scale(1.1);
 }
+
 .site-title-container {
     background-color: #1c3996;
     padding: 17px;
@@ -140,9 +236,83 @@ li {
     text-align: center;
     position: absolute;
     top: 22%;
-    left: 28%;
+    left: 30vw;
+    min-width: 400px;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 50px;
     font-family: title-font, sans-serif;
+}
+
+/* MEDIA QUERIES */
+
+@media(max-width: 1200px) {
+    #site-content {
+        padding: 0;
+    }
+
+    #page-text {
+        margin: 2rem 2rem;
+    }
+
+    #main-container {
+        width: 90%;
+    }
+}
+
+@media(max-width: 700px) {
+    #subtitle {
+        font-size: 20px;
+    }
+    #king-quote {
+        font-size: 15px;
+    }
+    .site-title-container {
+        font-size: 30px;
+    }
+
+    #alphabet-section {
+        width: 100%;
+    }
+    li {
+        font-size: 14px;
+    }
+    .star {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media(max-width: 960px) and (min-width: 701px) {
+    #alec-banner-photo {
+        height: 235px;
+    }
+    .site-title-container {
+        font-size: 38px;
+    }
+}
+
+@media(max-width: 750px) {
+    #review-opening {
+        font-size: 18px;
+    }
+    #review {
+        font-size: 16px;
+    }
+}
+
+
+@media(max-width: 550px) {
+    .site-title-container {
+        left: 0;
+        width: 100%;
+        transform: translate(0, 0);
+    }
+    #review-opening {
+        font-size: 16px;
+    }
+
+    #review {
+        font-size: 14px;
+    }
 }
