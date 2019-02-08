@@ -38,13 +38,12 @@ li {
 }
 
 @font-face {
+    font-family: review-title;
+    src: url("fonts/Moon2.0-Light.otf") format('opentype');
+}
+@font-face {
     font-family: nav-link-font;
     src: url("fonts/manrope-thin.otf") format('opentype');
-}
-
-@font-face {
-    font-family: nav-link-font-moon;
-    src: url("fonts/Moon2.0-Light.otf") format('opentype');
 }
 
 @font-face {
@@ -58,11 +57,19 @@ li {
     line-height: 2;
 }
 
+#review-title {
+    animation: fade-in 2.5s;
+    font-family: review-title, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 15px;
+    word-spacing: 15px;
+}
+
 #review-opening {
     font-size: 20px;
     font-style: italic;
     text-align: center;
-    margin-bottom: 2rem;
 }
 
 .decorative-dashes {
@@ -210,6 +217,20 @@ li {
     position: relative;
 }
 
+#review-banner {
+    margin-top: 2rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./media/FreeSoloBanner.jpg);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-top: 1px solid orangered;
+    border-bottom: 1px solid orangered;
+    box-shadow: inset 0 0 40px rgba(0, 0, 0, 1);
+}
+
+
 #index-container {
     display: flex;
     width: 100%;
@@ -262,6 +283,12 @@ li {
         color: white;
         font-size: 50px;
         font-family: title-font, sans-serif;
+    }
+}
+
+@media(min-width: 1201px) {
+    #review-banner {
+        border: 1px solid orangered;
     }
 }
 
@@ -327,6 +354,10 @@ li {
         background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./media/alec_banner_wide.jpg);
     }
 
+    #review-banner {
+        height: 160px;
+    }
+
     .site-title-container {
         background-color: #0e3084;
         padding: 17px;
@@ -337,6 +368,12 @@ li {
     }
     #review-opening {
         font-size: 16px;
+    }
+
+    #review-title {
+        font-size: 35px;
+        word-spacing: 0;
+        letter-spacing: 3px;
     }
 
     #alec-banner-photo {
