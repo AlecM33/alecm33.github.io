@@ -304,6 +304,11 @@ li {
 
 
 @media(max-width: 550px) {
+
+    #alec-banner-photo {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./media/alec_banner_wide.jpg);
+    }
+
     .site-title-container {
         background-color: #1c3996;
         padding: 17px;
