@@ -4,18 +4,18 @@
 /* Generic tag stylings */
 
 body, html {
-    background-color: #071842;
+    background-color: #172f6b;
     margin: 0;
     height: 100%;
 }
 
 a {
     text-decoration: none;
-    color: #071842;
+    color: #efefef;
 }
 
 p {
-    font-family: sitewide-serif, serif;
+    font-family: nav-link-font, serif;
     margin: 0;
 }
 
@@ -39,12 +39,12 @@ li {
 
 @font-face {
     font-family: nav-link-font;
-    src: url("fonts/manrope-light.otf") format('opentype');
+    src: url("fonts/manrope-thin.otf") format('opentype');
 }
 
 @font-face {
     font-family: nav-link-font-moon;
-    src: url("fonts/Moon2.0-Regular.otf") format('opentype');
+    src: url("fonts/Moon2.0-Light.otf") format('opentype');
 }
 
 @font-face {
@@ -53,6 +53,10 @@ li {
 }
 
 /* REVIEW PAGES */
+
+#review {
+    line-height: 2;
+}
 
 #review-opening {
     font-size: 20px;
@@ -83,7 +87,7 @@ li {
 }
 
 .star {
-    filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, 0.9));
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 1));
     width: 65px;
     height: 65px;
 }
@@ -93,13 +97,24 @@ li {
     to {opacity: 1;}
 }
 
-@keyframes review-fade {
+@keyframes fade-in {
     from {opacity: 0;}
     to {opacity: 1;}
 }
 
-#review-container {
-    animation: review-fade 1s;
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translate(-5%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+#review-container, #subtitle, #king-quote, #king-name {
+    animation: fade-in 1s;
 }
 
 .star-1 {
@@ -138,7 +153,8 @@ li {
 
 #subtitle {
     font-size: 27px;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid orangered;
 }
 
 #page-text {
@@ -149,6 +165,7 @@ li {
     font-size: 20px;
     font-style: italic;
     padding-bottom: 2rem;
+    padding-top: 1.5rem;
 }
 
 #movie-list {
@@ -156,6 +173,8 @@ li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    animation: slide-in 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .alphabet-section {
@@ -173,12 +192,12 @@ li {
 }
 
 #site-content {
+    color: #efefef;
     height: 100%;
     padding: 1rem 3rem;
-    margin-bottom: 4rem;
     border-top: 3px solid orangered;
-    background-color: white;
-    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.7);
+    background-color: #071842;
+    box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.8);
 }
 
 /* The hero image */
@@ -213,6 +232,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    animation: fade-in 2s;
 }
 
 .nav-link {
@@ -232,9 +252,9 @@ li {
 
 @media (min-width: 551px) {
     .site-title-container {
-        background-color: #1c3996;
+        background-color: #071842;
         padding: 17px;
-        box-shadow: 0px 0px 10px black;
+        box-shadow: 0 0 10px black;
         position: absolute;
         top: 150px;
         left: 30vw;
@@ -308,7 +328,7 @@ li {
     }
 
     .site-title-container {
-        background-color: #1c3996;
+        background-color: #0e3084;
         padding: 17px;
         box-shadow: 0 0 10px black;
         color: white;
