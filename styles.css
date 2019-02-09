@@ -219,7 +219,6 @@ li {
 
 #review-banner {
     margin-top: 2rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./media/FreeSoloBanner.jpg);
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
@@ -366,7 +365,7 @@ li {
         font-size: 25px;
         font-family: title-font, sans-serif;
     }
-    #review-opening {
+    #review-opening, #spoiler-warning {
         font-size: 16px;
     }
 
@@ -390,6 +389,7 @@ li {
 
     #site-content {
         margin-bottom: 0;
+        border: 0;
     }
 
     .star {

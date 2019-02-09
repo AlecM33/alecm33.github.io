@@ -1,0 +1,8 @@
+
+.free-solo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./media/FreeSoloBanner.jpg);
+}
+
+.groundhog-day {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./media/GroundhogDayBanner.jpg);
+}
