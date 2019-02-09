@@ -365,8 +365,12 @@ li {
         font-size: 25px;
         font-family: title-font, sans-serif;
     }
-    #review-opening, #spoiler-warning {
+    #review-opening {
         font-size: 16px;
+    }
+
+    #spoiler-warning {
+        font-size: 15px;
     }
 
     #review-title {
