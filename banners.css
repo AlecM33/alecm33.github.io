@@ -6,3 +6,7 @@
 .groundhog-day {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./media/GroundhogDayBanner.jpg);
 }
+
+.they-shall-not-grow-old {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./media/theyshallnotgrowold.jpg);
+}
