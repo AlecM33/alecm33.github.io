@@ -15,8 +15,8 @@ a {
 }
 
 p {
-    font-family: nav-link-font, serif;
-    margin: 0;
+    font-family: proxima-nova, sans-serif;
+    font-weight: lighter;
 }
 
 a:hover {
@@ -257,6 +257,7 @@ li {
 
 .nav-link {
     margin-top: 1rem;
+    margin-bottom: 1rem;
     font-family: nav-link-font, sans-serif;
     font-size: 18px;
     border: 1px solid orangered;
