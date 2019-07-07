@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0aba670-2b2a-4757-8fe1-9444a354e1ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Reviews/Midsommar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/midsommar_banner.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banners.css" beforeDir="false" afterPath="$PROJECT_DIR$/banners.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviewList.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviewList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reviews/Midsommar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reviews/Midsommar.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,10 +25,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
+            <state relative-caret-position="63">
               <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
@@ -56,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Reviews/Midsommar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="107" selection-start-line="48" selection-start-column="107" selection-end-line="48" selection-end-column="107" />
+            <state relative-caret-position="323">
+              <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -147,7 +143,6 @@
       <find>#review-</find>
       <find>(min-width</find>
       <find>(max-width</find>
-      <find>.nav</find>
       <find>/Index.html</find>
       <find>.star</find>
       <find>#revi</find>
@@ -159,6 +154,7 @@
       <find>#review-ba</find>
       <find>#review-open</find>
       <find>font-fam</find>
+      <find>.nav</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,10 +191,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Reviews/GroundhogDay.html" />
         <option value="$PROJECT_DIR$/Reviews/TheyShallNotGrowOld.html" />
-        <option value="$PROJECT_DIR$/Reviews/Midsommar.html" />
         <option value="$PROJECT_DIR$/banners.css" />
         <option value="$PROJECT_DIR$/reviewList.html" />
         <option value="$PROJECT_DIR$/styles.css" />
+        <option value="$PROJECT_DIR$/Reviews/Midsommar.html" />
       </list>
     </option>
   </component>
@@ -271,7 +267,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.Midsommar.html">
+    <configuration name="Midsommar.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AlecMovieReviews/Reviews/Midsommar.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AlecMovieReviews/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -283,6 +282,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Midsommar.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.reviewController.js" />
         <item itemvalue="Node.js.reviews.js" />
@@ -310,12 +310,12 @@
       <workItem from="1549949085412" duration="719000" />
       <workItem from="1552175292227" duration="409000" />
       <workItem from="1552228536017" duration="1150000" />
-      <workItem from="1562478097972" duration="2022000" />
+      <workItem from="1562478097972" duration="2437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58730000" />
+    <option name="totallyTimeSpent" value="59145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -333,7 +333,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49834764" visible="true" weight="0.23882681" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49834764" visible="true" weight="0.041899443" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50165236" side_tool="true" weight="0.08240224" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -442,17 +442,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Reviews/Midsommar.html">
+    <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="107" selection-start-line="48" selection-start-column="107" selection-end-line="48" selection-end-column="107" />
+        <state relative-caret-position="63">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
+    <entry file="file://$PROJECT_DIR$/Reviews/Midsommar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="323">
+          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
         </state>
       </provider>
     </entry>
