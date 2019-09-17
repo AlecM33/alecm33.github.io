@@ -6,6 +6,7 @@
 body, html {
     background-color: #172f6b;
     margin: 0;
+    overflow-x: hidden;
     height: 100%;
 }
 
@@ -204,13 +205,13 @@ li {
 }
 
 .recent-review {
-    max-width: 25em;
+    max-width: 21em;
     cursor: pointer;
     position: relative;
     display: flex;
     align-items: center;
     width: 100%;
-    margin: 0.8em;
+    margin: 0.3em 0.8em;
     border: 2px solid transparent;
     border-radius: 3px;
 }
@@ -450,7 +451,7 @@ li {
     }
 
     #review {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     #main-container {
