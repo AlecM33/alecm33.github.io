@@ -9,6 +9,13 @@ body, html {
     height: 100%;
 }
 
+h2 {
+    font-family: header-font, sans-serif;
+    margin: 0 0 0 1em;
+    font-size: 1.4em;
+    color: white;
+}
+
 a {
     text-decoration: none;
     color: #efefef;
@@ -21,7 +28,7 @@ p {
 
 a:hover {
     color: orangered;
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 li {
@@ -35,6 +42,11 @@ li {
 @font-face {
     font-family: title-font;
     src: url("fonts/manrope-bold.otf") format('opentype');
+}
+
+@font-face {
+    font-family: header-font;
+    src: url("fonts/manrope-thin.otf") format('opentype');
 }
 
 @font-face {
@@ -70,6 +82,10 @@ li {
     font-size: 20px;
     font-style: italic;
     text-align: center;
+    max-width: 30em;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid orangered;
 }
 
 .decorative-dashes {
@@ -155,17 +171,14 @@ li {
     width: 69%;
     margin: 0 auto;
     justify-content: center;
-    background-color: white;
+    background-color: #071842;
+    height: 100%;
 }
 
 #subtitle {
     font-size: 27px;
     padding-bottom: 1.5rem;
     border-bottom: 1px solid orangered;
-}
-
-#page-text {
-    margin: 3rem 5rem;
 }
 
 #king-quote {
@@ -190,6 +203,58 @@ li {
     border-left: 1px solid orangered;
 }
 
+.recent-review {
+    max-width: 25em;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0.8em;
+    border: 2px solid transparent;
+    border-radius: 3px;
+}
+
+.recent-review:hover {
+    border-color: orangered;
+    transition: border-color ease-in 0.3s;
+}
+
+.recent-review div:last-of-type {
+    height: 100px;
+}
+
+.recent-review img {
+    width: 100%;
+    max-width: 25em;
+    max-height: 100px;
+    object-fit: cover;
+}
+
+.recent-review .recent-review-img {
+    width: 100%;
+    max-width: 30em;
+}
+
+.recent-review .fade-out {
+    position: absolute;
+    box-shadow: inset 180px 0 70px 5px #071842;
+    height: 105px;
+    width: 100%;
+}
+
+.recent-review h2 {
+    position: absolute;
+    margin: 0;
+    margin-left: 0.5em;
+}
+
+#recent-reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #king-name {
     font-size: 18px;
     font-style: italic;
@@ -200,11 +265,13 @@ li {
 
 #site-content {
     color: #efefef;
-    height: 100%;
     padding: 1rem 3rem;
     border-top: 3px solid orangered;
     background-color: #071842;
-    box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.8);
+}
+
+#page-text {
+    padding: 1.5em;
 }
 
 /* The hero image */
@@ -218,7 +285,6 @@ li {
 }
 
 #review-banner {
-    margin-top: 2rem;
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
@@ -256,17 +322,20 @@ li {
 }
 
 .nav-link {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 0.8em;
     font-family: nav-link-font, sans-serif;
     font-size: 18px;
+    width: 8em;
     border: 1px solid orangered;
-    padding: 0 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 0.5em;
+    text-align: center;
 }
 
 .nav-link:hover {
     border: 1px solid #1c3996;
-    transform: scale(1.1);
+    transform: scale(1.04);
 }
 
 /* MEDIA QUERIES */
@@ -295,10 +364,6 @@ li {
 @media(max-width: 1200px) {
     #site-content {
         padding: 0;
-    }
-
-    #page-text {
-        margin: 2rem 1rem;
     }
 
     #main-container {
@@ -343,7 +408,7 @@ li {
         font-size: 18px;
     }
     #review {
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 
@@ -385,7 +450,7 @@ li {
     }
 
     #review {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     #main-container {

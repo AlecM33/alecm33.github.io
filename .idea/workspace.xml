@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0aba670-2b2a-4757-8fe1-9444a354e1ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/star-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reviews/ItChapterTwo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/ItChapterTwoBanner.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reviews/FreeSolo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reviews/FreeSolo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reviews/GroundhogDay.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reviews/GroundhogDay.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reviews/Midsommar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reviews/Midsommar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reviews/TheyShallNotGrowOld.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reviews/TheyShallNotGrowOld.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banners.css" beforeDir="false" afterPath="$PROJECT_DIR$/banners.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reviewList.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviewList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,17 +28,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/banners.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="111" selection-start-line="14" selection-start-column="111" selection-end-line="14" selection-end-column="111" />
+            <state relative-caret-position="323">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Reviews/FreeSolo.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="340">
+              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -40,39 +46,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Reviews/Midsommar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+            <state relative-caret-position="-119">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/media/star.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/media/star-outline.svg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/Reviews/FreeSolo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/reviewList.html">
+        <entry file="file://$PROJECT_DIR$/Reviews/ItChapterTwo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="391">
+              <caret line="29" column="123" selection-start-line="29" selection-start-column="123" selection-end-line="29" selection-end-column="123" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rankings.html">
+        <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="232">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reviewList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -80,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Reviews/GroundhogDay.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="74" />
+            <state relative-caret-position="357">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -89,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Reviews/TheyShallNotGrowOld.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="-8">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -118,12 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>class=\&quot;movie-list</find>
-      <find>font-</find>
-      <find>#page-te</find>
-      <find>page-</find>
-      <find>alpha</find>
-      <find>subtit</find>
       <find>title</find>
       <find>movie-l</find>
       <find>class=&quot;movie-list&quot;</find>
@@ -140,11 +145,20 @@
       <find>#site-con</find>
       <find>bann</find>
       <find>filter</find>
-      <find>#review-ba</find>
       <find>#review-open</find>
       <find>font-fam</find>
       <find>.nav</find>
       <find>star</find>
+      <find>#review-ba</find>
+      <find>#review</find>
+      <find>550p</find>
+      <find>review-open</find>
+      <find>background-ima</find>
+      <find>#main-con</find>
+      <find>#page-text</find>
+      <find>nav-links</find>
+      <find>nav-link</find>
+      <find>hover</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,15 +191,16 @@
         <option value="$PROJECT_DIR$/navbar_scripts/reviewListNavbar.js" />
         <option value="$PROJECT_DIR$/navbar_scripts/rankingsNavbar.js" />
         <option value="$PROJECT_DIR$/Rankings.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/banners.css" />
-        <option value="$PROJECT_DIR$/Reviews/TheyShallNotGrowOld.html" />
-        <option value="$PROJECT_DIR$/Reviews/FreeSolo.html" />
-        <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/media/star-outline.svg" />
-        <option value="$PROJECT_DIR$/Reviews/GroundhogDay.html" />
-        <option value="$PROJECT_DIR$/Reviews/Midsommar.html" />
+        <option value="$PROJECT_DIR$/banners.css" />
         <option value="$PROJECT_DIR$/reviewList.html" />
+        <option value="$PROJECT_DIR$/Reviews/FreeSolo.html" />
+        <option value="$PROJECT_DIR$/Reviews/Midsommar.html" />
+        <option value="$PROJECT_DIR$/Reviews/TheyShallNotGrowOld.html" />
+        <option value="$PROJECT_DIR$/Reviews/GroundhogDay.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles.css" />
+        <option value="$PROJECT_DIR$/Reviews/ItChapterTwo.html" />
       </list>
     </option>
   </component>
@@ -201,12 +216,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="AlecMovieReviews" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlecMovieReviews" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlecMovieReviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlecMovieReviews" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlecMovieReviews" type="b2602c69:ProjectViewProjectNode" />
@@ -222,7 +243,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,16 +254,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Alec\WebstormProjects\AlecMovieReviews\media" />
-      <recent name="C:\Users\Alec\WebstormProjects\AlecMovieReviews" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alec\WebstormProjects\AlecMovieReviews\media" />
       <recent name="C:\Users\Alec\WebstormProjects\AlecMovieReviews\navbar_scripts" />
       <recent name="C:\Users\Alec\WebstormProjects\AlecMovieReviews\fonts" />
       <recent name="C:\Users\Alec\WebstormProjects\AlecMovieReviews\Content" />
       <recent name="C:\Users\Alec\WebstormProjects\AlecMovieReviews\Reviews" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alec\WebstormProjects\AlecMovieReviews\media" />
+      <recent name="C:\Users\Alec\WebstormProjects\AlecMovieReviews" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -258,8 +278,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.GroundhogDay.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="GroundhogDay.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AlecMovieReviews/Reviews/GroundhogDay.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ItChapterTwo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AlecMovieReviews/Reviews/ItChapterTwo.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Midsommar.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AlecMovieReviews/Reviews/Midsommar.html" useBuiltInWebServerPort="true">
@@ -268,19 +291,16 @@
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AlecMovieReviews/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="reviewController.js" type="NodeJSConfigurationType" temporary="true" path-to-js-file="reviewController.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="reviews.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/reviews.js" working-dir="$PROJECT_DIR$">
+    <configuration name="reviewList.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AlecMovieReviews/reviewList.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.reviewList.html" />
+        <item itemvalue="JavaScript Debug.ItChapterTwo.html" />
         <item itemvalue="JavaScript Debug.GroundhogDay.html" />
         <item itemvalue="JavaScript Debug.Midsommar.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Node.js.reviewController.js" />
-        <item itemvalue="Node.js.reviews.js" />
       </list>
     </recent_temporary>
   </component>
@@ -306,12 +326,13 @@
       <workItem from="1552175292227" duration="409000" />
       <workItem from="1552228536017" duration="1150000" />
       <workItem from="1562478097972" duration="2790000" />
-      <workItem from="1562480964715" duration="788000" />
+      <workItem from="1562480964715" duration="1425000" />
+      <workItem from="1568677934621" duration="8896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60286000" />
+    <option name="totallyTimeSpent" value="69819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -329,7 +350,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49834764" visible="true" weight="0.041899443" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49834764" visible="true" weight="0.060055867" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50165236" side_tool="true" weight="0.08240224" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -369,26 +390,11 @@
     <entry file="file://$PROJECT_DIR$/navbar_scripts/reviewListNavbar.js" />
     <entry file="file://$PROJECT_DIR$/navbar_scripts/rankingsNavbar.js" />
     <entry file="file://$PROJECT_DIR$/navbar_scripts/indexNavbar.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/media/star.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2516">
-          <caret line="148" column="27" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/banners.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="111" selection-start-line="14" selection-start-column="111" selection-end-line="14" selection-end-column="111" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/media/star-outline.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Rankings.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -408,44 +414,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/star.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/star-outline.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reviews/FreeSolo.html">
+    <entry file="file://$PROJECT_DIR$/banners.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reviews/GroundhogDay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reviews/Midsommar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reviews/TheyShallNotGrowOld.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reviewList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="204">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reviews/FreeSolo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reviews/TheyShallNotGrowOld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reviews/Midsommar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reviews/GroundhogDay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reviews/ItChapterTwo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="123" selection-start-line="29" selection-start-column="123" selection-end-line="29" selection-end-column="123" />
         </state>
       </provider>
     </entry>
